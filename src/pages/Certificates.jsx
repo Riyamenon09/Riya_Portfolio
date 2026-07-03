@@ -58,7 +58,7 @@ function Certificates({ darkMode }) {
 
         <div className="text-center">
 
-          <h2 className={`text-3xl sm:text-5xl font-extrabold transition-colors duration-500 ${darkMode ? "text-white" : "text-slate-800"
+          <h2 className={`text-3xl mt-14 sm:text-5xl font-extrabold transition-colors duration-500 ${darkMode ? "text-white" : "text-slate-800"
             }`}>
             MY CERTIFICATES
           </h2>

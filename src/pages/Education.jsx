@@ -43,7 +43,7 @@ function Education({darkMode}) {
 
                     <div className="text-center mb-10 lg:mb-16">
 
-                        <h2 className={`text-4xl sm:text-5xl font-extrabold transition-all duration-500 ${
+                        <h2 className={`text-4xl mt-14 sm:text-5xl font-extrabold transition-all duration-500 ${
     darkMode ? "text-white" : "text-slate-800"
   }`}>
                             Education

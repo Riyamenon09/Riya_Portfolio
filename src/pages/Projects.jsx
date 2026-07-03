@@ -195,7 +195,7 @@ function Projects({ darkMode }) {
 
         <div className="text-center">
 
-          <h2 className={`text-4xl sm:text-5xl mt-7 font-extrabold transition-colors duration-500 ${darkMode ? "text-white" : "text-slate-800"
+          <h2 className={`text-4xl sm:text-5xl mt-14 font-extrabold transition-colors duration-500 ${darkMode ? "text-white" : "text-slate-800"
             }`}>
             MY PROJECTS
           </h2>

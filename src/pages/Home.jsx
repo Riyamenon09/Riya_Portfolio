@@ -73,15 +73,16 @@ ${darkMode
 
             </h2>
 
-            <p className="mt-4 text-xl font-semibold">
+            <p className={`mt-4 text-xl font-semibold ${darkMode ? "text-white" : "text-black"
+              }`}>
 
-              Frontend Developer
+              Full Stack Developer
 
             </p>
 
             <p className="text-blue-500 font-medium mt-2">
 
-              MERN Stack | AI & ML Enthusiast
+              MERN Stack | AI & ML Enthusiast | UI/UX
 
             </p>
 
@@ -173,15 +174,14 @@ transition-all duration-500  ${darkMode ? "bg-blue-900" : "bg-blue-100"
 
 
 
-              <p className="text-xl sm:text-2xl lg:text-3xl mt-5 font-semibold leading-snug">
+              <p className={`text-xl sm:text-2xl lg:text-3xl mt-5 font-semibold leading-snug ${darkMode ? "text-white" : "text-black"
+              }`}>
 
-                Frontend Developer
+                Full Stack Developer
 
-                <span className="text-blue-500">
-
-                  {" "} | MERN Stack Enthusiast
-
-                </span>
+                 <span className="text-blue-500">
+    {" "} | MERN • Backend • UI/UX
+  </span>
 
               </p>
 
@@ -192,10 +192,11 @@ leading-8 sm:leading-9 lg:leading-10
 transition-all duration-500 ${darkMode ? "text-gray-300" : "text-gray-600"
                 }`}>
 
-                I build responsive, user-friendly web applications
-                with clean code and modern UI design.
-                I enjoy solving real-world problems and continuously
-                learning new technologies.
+                 I'm passionate about building full-stack web applications that
+  combine clean backend architecture with modern, responsive user
+  interfaces. I enjoy designing intuitive UI/UX experiences,
+  developing scalable backend systems, and solving real-world
+  problems through technology.
 
               </p>
 
