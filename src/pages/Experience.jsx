@@ -18,7 +18,7 @@ function Experience({ darkMode }) {
 
         <div className="text-center mb-8 lg:mb-10">
 
-          <h2 className={`text-4xl mt-20 sm:text-5xl font-extrabold transition-colors duration-500 ${darkMode ? "text-white" : "text-slate-800"
+          <h2 className={`text-4xl mt-28 lg:mt-20 sm:text-5xl font-extrabold transition-colors duration-500 ${darkMode ? "text-white" : "text-slate-800"
             }`}>
             EXPERIENCE
           </h2>
@@ -30,8 +30,8 @@ function Experience({ darkMode }) {
         {/* Card */}
 
         <div className={`max-w-4xl mx-auto rounded-3xl shadow-xl p-5 sm:p-7 lg:p-10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 ${darkMode
-            ? "bg-[#10233B] border border-blue-800"
-            : "bg-white border border-blue-100"
+          ? "bg-[#10233B] border border-blue-800"
+          : "bg-white border border-blue-100"
           }`}>
 
           {/* Role */}
@@ -52,9 +52,8 @@ function Experience({ darkMode }) {
                 Full Stack Developer Intern
               </h3>
 
-              <p className={`text-sm sm:text-base transition-colors duration-500 ${
-  darkMode ? "text-gray-400" : "text-gray-500"
-}`}>
+              <p className={`text-sm sm:text-base transition-colors duration-500 ${darkMode ? "text-gray-400" : "text-gray-500"
+                }`}>
                 National Informatics Centre (NIC)
               </p>
 
@@ -89,7 +88,7 @@ function Experience({ darkMode }) {
 
           <div className="space-y-4">
 
-            
+
 
             <div className="flex gap-2 sm:gap-3">
 
@@ -164,8 +163,8 @@ function Experience({ darkMode }) {
               <span
                 key={skill}
                 className={`px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium transition-all duration-300 ${darkMode
-                    ? "bg-blue-900 text-blue-200 hover:bg-blue-500 hover:text-white"
-                    : "bg-blue-100 text-blue-700 hover:bg-blue-500 hover:text-white"
+                  ? "bg-blue-900 text-blue-200 hover:bg-blue-500 hover:text-white"
+                  : "bg-blue-100 text-blue-700 hover:bg-blue-500 hover:text-white"
                   }`}>
                 {skill}
               </span>
