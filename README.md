@@ -1,12 +1,9 @@
 # 🌐 Riya's Portfolio
-
-A modern, responsive developer portfolio built using **React**, **Vite**, and **Tailwind CSS** to showcase my projects, technical skills, certifications, and experience.
-
 ---
 
 ## 🚀 Live Demo
 
-🔗 **Portfolio:** *(Coming Soon)*
+🔗 **Portfolio:** *https://riyamenon-portfolio.vercel.app/*
 
 ---
 
@@ -123,7 +120,7 @@ portfolio/
 
 - GitHub: https://github.com/Riyamenon09
 - LinkedIn: https://www.linkedin.com/in/riya-s-menon-553951359/
-- Portfolio: *(Coming Soon)*
+- Portfolio: https://riyamenon-portfolio.vercel.app/
 
 ---
 
