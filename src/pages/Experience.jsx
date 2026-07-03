@@ -9,7 +9,7 @@ function Experience({ darkMode }) {
   return (
     <section
       id="experience"
-      className={`min-h-screen flex items-center py-16 lg:py-20 transition-colors duration-500 ${darkMode ? "bg-[#08121F]" : "bg-blue-50"
+      className={`min-h-screen pb-28 flex items-center py-16 lg:py-20 transition-colors duration-500 ${darkMode ? "bg-[#08121F]" : "bg-blue-50"
         }`}
     >
       <div className="container mx-auto px-5 sm:px-6 lg:px-20">
@@ -47,7 +47,7 @@ function Experience({ darkMode }) {
 
             <div>
 
-              <h3 className={`text-xl sm:text-2xl md:text-3xl font-bold leading-tight transition-colors duration-500 ${darkMode ? "text-white" : "text-black"
+              <h3 className={`text-[18px] sm:text-2xl md:text-3xl font-bold leading-tight transition-colors duration-500 ${darkMode ? "text-white" : "text-black"
                 }`}>
                 Full Stack Developer Intern
               </h3>
@@ -66,7 +66,7 @@ function Experience({ darkMode }) {
           <div className={`flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 mb-8 transition-colors duration-500 ${darkMode ? "text-gray-300" : "text-gray-600"
             }`}>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 text-[14px] sm:text-[20px]">
 
               <FaMapMarkerAlt className="text-blue-500" />
 
@@ -74,7 +74,7 @@ function Experience({ darkMode }) {
 
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 text-[14px] sm:text-[20px]">
 
               <FaCalendarAlt className="text-blue-500" />
 
@@ -90,23 +90,14 @@ function Experience({ darkMode }) {
 
 
 
+           
             <div className="flex gap-2 sm:gap-3">
 
               <FaCheckCircle className="text-green-500 mt-1 shrink-0" />
 
               <p className={`text-sm sm:text-base leading-7 sm:leading-8 transition-colors duration-500 ${darkMode ? "text-gray-300" : "text-gray-700"
                 }`}>
-                Developed responsive interfaces using HTML, CSS, JavaScript and Bootstrap.
-              </p>
-
-            </div>
-            <div className="flex gap-2 sm:gap-3">
-
-              <FaCheckCircle className="text-green-500 mt-1 shrink-0" />
-
-              <p className={`text-sm sm:text-base leading-7 sm:leading-8 transition-colors duration-500 ${darkMode ? "text-gray-300" : "text-gray-700"
-                }`}>
-                Developed responsive interfaces using HTML, CSS, JavaScript and Bootstrap.
+                Collaborated with a senior developer to build the Integrated Petition Management System (IPMS) as a Full Stack Developer Intern.
               </p>
 
             </div>
@@ -117,7 +108,7 @@ function Experience({ darkMode }) {
 
               <p className={`text-sm sm:text-base leading-7 sm:leading-8 transition-colors duration-500 ${darkMode ? "text-gray-300" : "text-gray-700"
                 }`}>
-                Worked with Django ORM and MySQL for backend development.
+                Developed responsive web interfaces using HTML, CSS, JavaScript, jQuery, Bootstrap, DataTables, and integrated backend functionality with Django ORM and MySQL (HeidiSQL).
               </p>
 
             </div>
@@ -128,7 +119,7 @@ function Experience({ darkMode }) {
 
               <p className={`text-sm md:text-base leading-7 transition-colors duration-500 ${darkMode ? "text-gray-300" : "text-gray-700"
                 }`}>
-                Integrated spaCy NLP for automatic document page extraction.
+                Implemented an NLP-based document navigation feature using spaCy to automatically extract page numbers from user input and open uploaded documents at the relevant page.
               </p>
 
             </div>
@@ -139,7 +130,7 @@ function Experience({ darkMode }) {
 
               <p className={`text-sm md:text-base leading-7 transition-colors duration-500 ${darkMode ? "text-gray-300" : "text-gray-700"
                 }`}>
-                Built dashboard visualizations and complaint management modules.
+                Built analytics dashboards and complaint management modules with cascade deletion functionality.
               </p>
 
             </div>
@@ -153,12 +144,14 @@ function Experience({ darkMode }) {
             {[
               "HTML",
               "CSS",
-              "JavaScript",
+              "JS",
+              "Python",
               "Bootstrap",
               "jQuery",
               "Django",
               "MySQL",
               "spaCy",
+              "HeidiSQL"
             ].map((skill) => (
               <span
                 key={skill}

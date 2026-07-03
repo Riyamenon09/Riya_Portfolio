@@ -35,7 +35,7 @@ function Projects({ darkMode }) {
       description:
         "A responsive portfolio website built using React and Tailwind CSS.",
 
-      tech: ["React", "Tailwind CSS"],
+      tech: ["React", "Tailwind CSS","JS","Vite","Git"],
 
       github: "https://github.com/Riyamenon09/Riya_Portfolio",
       live: "#",
@@ -150,7 +150,13 @@ function Projects({ darkMode }) {
       description:
         "An interactive Figma prototype featuring six unique donut varieties with a vibrant UI, smooth navigation, and an intuitive user experience.",
 
-      tech: ["Python", "Deep Learning", "Machine Learning", "Pandas", "Numpy"],
+      tech: [
+        "Figma",
+        "UI Design",
+        "UX Design",
+        "Prototyping",
+        "Wireframing","Auto Layout"
+      ],
 
       github: "#",
       live: "https://www.figma.com/proto/4phgKlkWAc5yH0nIANkGjO/DONUTS?node-id=4-87&t=gUrfE1WDpH6QheO5-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A86",
@@ -161,7 +167,13 @@ function Projects({ darkMode }) {
       description:
         "Designed a modern pizza ordering interface in Figma with an interactive image carousel, allowing users to preview different pizzas by selecting thumbnails.",
 
-      tech: ["Python", "Machine Learning", "Pandas", "Numpy"],
+      tech: [
+        "Figma",
+        "UI Design",
+        "UX Design",
+        "Prototyping",
+        "Wireframing","Rulers","Auto Layout"
+      ],
 
       github: "#",
       live: "https://www.figma.com/proto/ynDywoh1emfvqcOMDSrd0f/Pizza?node-id=11-2&t=TbVi9NZtfMeuvHvc-0&scaling=scale-down&content-scaling=fixed&page-id=9%3A47&starting-point-node-id=11%3A2",
@@ -177,7 +189,7 @@ function Projects({ darkMode }) {
         "UI Design",
         "UX Design",
         "Prototyping",
-        "Wireframing"
+        "Wireframing","Auto Layout"
       ],
 
       github: "#",
@@ -188,7 +200,7 @@ function Projects({ darkMode }) {
   return (
     <section
       id="projects"
-      className={`py-16 lg:py-20 overflow-hidden transition-colors duration-500 ${darkMode ? "bg-[#08121F]" : "bg-[#EEF5FF]"
+      className={`py-16 lg:py-20 pb-28 overflow-hidden transition-colors duration-500 ${darkMode ? "bg-[#08121F]" : "bg-[#EEF5FF]"
         }`}
     >
       <div className="container mx-auto px-5 sm:px-6 lg:px-20">

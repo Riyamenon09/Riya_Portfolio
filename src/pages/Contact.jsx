@@ -15,7 +15,7 @@ function Contact({ darkMode }) {
         <>
             <section id="contact" className={`py-20 transition-all duration-500 ${darkMode ? "bg-[#08121F]" : "bg-[#EEF5FF]"}`}
             >
-                <div className="container mx-auto px-5 sm:px-8 lg:px-20">
+                <div className="container mx-auto pbe-14 px-5 sm:px-8 lg:px-20">
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 mt-10 lg:mt-10">
                         <div
@@ -132,7 +132,7 @@ function Contact({ darkMode }) {
 
                                         <p className="text-blue-500 text-sm sm:text-base break-all">
 
-                                            Chennai, India
+                                            A&N Islands, India
 
                                         </p>
 

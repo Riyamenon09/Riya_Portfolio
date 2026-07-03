@@ -48,7 +48,7 @@ function Certificates({ darkMode }) {
 
     <section
       id="certificates"
-      className={`py-20 transition-all duration-500 ${darkMode ? "bg-[#08121F]" : "bg-[#EEF5FF]"
+      className={`py-20 pb-28 transition-all duration-500 ${darkMode ? "bg-[#08121F]" : "bg-[#EEF5FF]"
         }`}
     >
 

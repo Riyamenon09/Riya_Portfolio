@@ -1,4 +1,5 @@
 import profile from "../assets/images/profile.png";
+import { Link } from "react-router-dom";
 
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaDownload, } from "react-icons/fa";
 
@@ -73,7 +74,7 @@ ${darkMode
 
             </h2>
 
-            <p className={`mt-4 text-xl font-semibold ${darkMode ? "text-white" : "text-black"
+            <p className={`mt-4 text-xl transition-all duration-500 font-semibold ${darkMode ? "text-white" : "text-black"
               }`}>
 
               Full Stack Developer
@@ -82,7 +83,7 @@ ${darkMode
 
             <p className="text-blue-500 font-medium mt-2">
 
-              MERN Stack | AI & ML Enthusiast | UI/UX
+              MERN Stack | AI & ML | UI/UX
 
             </p>
 
@@ -174,18 +175,18 @@ transition-all duration-500  ${darkMode ? "bg-blue-900" : "bg-blue-100"
 
 
 
-              <p className={`text-xl sm:text-2xl lg:text-3xl mt-5 font-semibold leading-snug ${darkMode ? "text-white" : "text-black"
+              <p className={`text-[18px] transition-all duration-500 sm:text-2xl lg:text-3xl mt-5 font-semibold leading-snug ${darkMode ? "text-white" : "text-black"
               }`}>
 
-                Full Stack Developer
+                Full Stack 
 
-                 <span className="text-blue-500">
-    {" "} | MERN • Backend • UI/UX
+                 <span className="text-blue-500 text-[18px] sm:text-2xl">
+    {" "} | AI & ML • UI/UX
   </span>
 
               </p>
 
-              <div className="w-40 sm:w-60 lg:w-72 h-1 rounded-full bg-blue-500 mt-5 mb-8"></div>
+              <div className="w-64 sm:w-75 lg:w-95 h-1 rounded-full bg-blue-500 mt-5 mb-8"></div>
 
               <p className={`text-base sm:text-lg lg:text-xl
 leading-8 sm:leading-9 lg:leading-10
@@ -206,8 +207,7 @@ mt-6 lg:mt-10
 transition-all duration-500 ${darkMode ? "text-white" : "text-gray-600"
                 }`}>
 
-                Currently pursuing B.Tech in Computer Science Engineering
-                at
+                Completed B.Tech in Computer Science Engineering from
 
                 <span className={`font-semibold transition-all duration-500 ${darkMode ? "text-white" : "text-black"}`}>
 
@@ -215,9 +215,7 @@ transition-all duration-500 ${darkMode ? "text-white" : "text-gray-600"
 
                 </span>
 
-                , while exploring Artificial Intelligence,
-                Machine Learning, MERN Stack Development
-                and Generative AI.
+                , with a strong focus on Artificial Intelligence, Machine Learning,MERN Stack, Generative AI, and LLMs.
 
               </p>
 
@@ -240,21 +238,24 @@ transition-all duration-300">
 
                 </button>
 
-                <button className="flex items-center justify-center
-px-5 py-3
-sm:px-6 sm:py-3
-lg:px-8 lg:py-4
-text-sm sm:text-base
-border-2 border-blue-600
-text-blue-600
-rounded-xl font-semibold
-hover:bg-blue-600 hover:text-white
-hover:scale-105
-transition-all duration-300">
-
-                  Contact Me
-
-                </button>
+                
+<Link to="/contact">
+  <button
+    className="w-full flex items-center justify-center
+    px-5 py-3
+    sm:px-6 sm:py-3
+    lg:px-8 lg:py-4
+    text-sm sm:text-base
+    border-2 border-blue-600
+    text-blue-600
+    rounded-xl font-semibold
+    hover:bg-blue-600 hover:text-white
+    hover:scale-105
+    transition-all duration-300"
+  >
+    Contact Me
+  </button>
+</Link>
 
               </div>
 

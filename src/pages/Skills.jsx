@@ -125,7 +125,7 @@ function Skills({ darkMode }) {
   return (
     <section
       id="skills"
-      className={`min-h-screen py-16 lg:py-20 overflow-hidden transition-colors duration-500 ${darkMode ? "bg-[#08121F]" : "bg-[#EEF5FF]"
+      className={`min-h-screen py-16 lg:py-20 pb-28 overflow-hidden transition-colors duration-500 ${darkMode ? "bg-[#08121F]" : "bg-[#EEF5FF]"
         }`}
     >
 
@@ -162,7 +162,7 @@ function Skills({ darkMode }) {
                 }`}
             >
 
-              <div className="flex items-center gap-3 sm:gap-4 mb-5">
+              <div className="flex items-center gap-3 sm:gap-4">
 
                 <div className={`w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 rounded-2xl flex justify-center items-center transition-colors duration-500 ${darkMode ? "bg-blue-900" : "bg-blue-50"
                   }`}>
@@ -182,7 +182,7 @@ function Skills({ darkMode }) {
 
 
 
-              <div className="flex flex-wrap gap-2 sm:gap-3 mt-5">
+              <div className="flex flex-wrap  gap-2 sm:gap-3 mt-5">
 
                 {skill.items.map((item) => (
 
