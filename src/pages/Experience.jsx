@@ -177,7 +177,7 @@ function Experience({ darkMode }) {
           <div className="mt-10">
 
             <a
-              href="/internship.pdf"
+              href="/certificates/internship.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={`inline-flex items-center gap-3 w-full sm:w-fit

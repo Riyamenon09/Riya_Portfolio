@@ -13,34 +13,34 @@ function Certificates({ darkMode }) {
       title: "Adobe UI & UX (Graphic Design) Certification Program",
       company: "Codemithra Ethnus",
       image: graphic,
-      live: "./Ethnus.pdf",
+      live: "/certificates/Ethnus.pdf",
     },
 
     {
       title: "Adobe Photoshop CC - Essentials Training Course",
       company: "Udemy",
       image: graphic1,
-      live: "./UDEMY_PHOTOSHOP.pdf",
+      live: "/certificates/UDEMY_PHOTOSHOP.pdf",
     },
 
     {
       title: "Certificate for the Completion of Cpp Training",
       company: "Spoken Tutorial Project at IIT Bombay",
       image:cpp,
-      live: "./Cpp.pdf",
+      live: "/certificates/Cpp.pdf",
     },
 
     {
       title: "Certificate for the Completion of C Training",
       company: "Spoken Tutorial Project at IIT Bombay",
       image:  c,
-      live: "./C.pdf",
+      live: "/certificates/C.pdf",
     },
     {
       title: "Certificate for the Completion of Python Training",
       company: "Spoken Tutorial Project at IIT Bombay",
       image: python,
-      live: "./Python.pdf",
+      live: "/certificates//Python.pdf",
     },
 
   ];
