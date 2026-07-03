@@ -18,7 +18,7 @@ function Experience({ darkMode }) {
 
         <div className="text-center mb-8 lg:mb-10">
 
-          <h2 className={`text-4xl sm:text-5xl font-extrabold transition-colors duration-500 ${darkMode ? "text-white" : "text-slate-800"
+          <h2 className={`text-4xl mt-7 sm:text-5xl font-extrabold transition-colors duration-500 ${darkMode ? "text-white" : "text-slate-800"
             }`}>
             EXPERIENCE
           </h2>
