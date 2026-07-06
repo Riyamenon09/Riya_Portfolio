@@ -189,15 +189,10 @@ function Skills({ darkMode }) {
                   <span
                     key={item.name}
                     className={`group flex items-center gap-1.5
-px-2.5 sm:px-3 lg:px-4
-py-1.5 sm:py-2
-rounded-full
-border
-text-xs sm:text-sm lg:text-base
-font-medium
-cursor-pointer
-hover:scale-105
-transition-all duration-300 ${darkMode
+                    px-2.5 sm:px-3 lg:px-4 py-1.5 sm:py-2
+                    rounded-full border text-xs sm:text-sm lg:text-base
+                    font-medium cursor-pointer hover:scale-105
+                    transition-all duration-300 ${darkMode
                         ? "bg-[#1B365D] border-blue-700 text-white hover:bg-blue-500"
                         : "bg-white border-black text-black hover:bg-blue-300 hover:text-white"
                       }`}

@@ -3,7 +3,7 @@ import graphic1 from "../assets/images/graphic1.png";
 import cpp from "../assets/images/cpp.png";
 import python from "../assets/images/python.png";
 import c from "../assets/images/c.png";
-import { FiExternalLink } from "react-icons/fi";
+import { FaEye } from "react-icons/fa";
 
 function Certificates({ darkMode }) {
 
@@ -54,7 +54,7 @@ function Certificates({ darkMode }) {
 
       <div className="container mx-auto px-8 lg:px-20">
 
-        {/* Heading */}
+        
 
         <div className="text-center">
 
@@ -68,7 +68,7 @@ function Certificates({ darkMode }) {
 
         </div>
 
-        {/* Cards */}
+     
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-10">
 
@@ -84,8 +84,7 @@ function Certificates({ darkMode }) {
               <div className="flex flex-col sm:flex-row items-center gap-4 p-4 sm:p-5">
 
 
-                {/* Left Image */}
-
+             
                 <div className="w-full sm:w-32 md:w-36 shrink-0">
 
                   <img
@@ -96,7 +95,7 @@ function Certificates({ darkMode }) {
 
                 </div>
 
-                {/* Right Content */}
+           
 
                 <div className="flex-1 flex flex-col justify-between text-center sm:text-left">
 
@@ -134,7 +133,7 @@ function Certificates({ darkMode }) {
                                                 : "bg-blue-500 text-white hover:bg-blue-700"
                                               }`}
                                           >
-                      <FiExternalLink />
+                      <FaEye />
 
                       View Certificate
 

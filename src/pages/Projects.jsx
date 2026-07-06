@@ -13,7 +13,7 @@ import airbnb from "../assets/images/airbnb.png"
 import portfolio from "../assets/images/portfolio.png"
 
 import { FaGithub } from "react-icons/fa";
-import { FiExternalLink } from "react-icons/fi";
+import { FaGlobe } from "react-icons/fa6";
 
 function Projects({ darkMode }) {
 
@@ -27,7 +27,7 @@ function Projects({ darkMode }) {
       tech: ["HTML", "CSS", "JS", "Node.js", "Express", "MongoDB", "Mongoose", "EJS", "Bootstrap", "JWT"],
 
       github: "https://github.com/Riyamenon09/foodhub",
-      live: "#",
+      live: "https://foodhub-afe1.onrender.com/",
     },
     {
       title: "Portfolio Website",
@@ -38,7 +38,7 @@ function Projects({ darkMode }) {
       tech: ["React", "Tailwind CSS","JS","Vite","Git"],
 
       github: "https://github.com/Riyamenon09/Riya_Portfolio",
-      live: "#",
+      live: "https://riyamenon-portfolio.vercel.app/",
     },
     {
       title: "Andaman Rideshare",
@@ -222,7 +222,7 @@ function Projects({ darkMode }) {
           and Machine Learning skills.
         </p>
 
-        {/* Cards */}
+
 
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 lg:gap-10 mt-10 lg:mt-16">
 
@@ -236,7 +236,7 @@ function Projects({ darkMode }) {
                 }`}
             >
 
-              {/* Project Image */}
+           
 
               <div className="overflow-hidden">
 
@@ -249,11 +249,11 @@ function Projects({ darkMode }) {
 
               </div>
 
-              {/* Content */}
+           
 
               <div className="p-5 sm:p-6">
 
-                {/* Title + Icons */}
+             
 
                 <div className="flex justify-between items-start gap-3">
 
@@ -264,7 +264,7 @@ function Projects({ darkMode }) {
 
                   <div className="flex gap-3">
 
-                    {/* GitHub Button */}
+                 
 
                     {project.github !== "#" && (
                       <a
@@ -280,7 +280,7 @@ function Projects({ darkMode }) {
                       </a>
                     )}
 
-                    {/* Live / Demo / Figma Button */}
+                   
 
                     {project.live !== "#" && (
                       <a
@@ -292,7 +292,7 @@ function Projects({ darkMode }) {
                             : "bg-blue-100 text-blue-600 hover:bg-blue-600 hover:text-white"
                           }`}
                       >
-                        <FiExternalLink className="text-xl" />
+                        <FaGlobe className="text-xl" />
                       </a>
                     )}
 
@@ -300,16 +300,15 @@ function Projects({ darkMode }) {
 
                 </div>
 
-                {/* Description */}
+               
 
                 <p className={`mt-3
-text-sm sm:text-base
-leading-6 sm:leading-7 transition-colors duration-500 ${darkMode ? "text-gray-300" : "text-gray-500"
-                  }`}>
+                text-sm sm:text-base
+                leading-6 sm:leading-7 transition-colors duration-500 ${darkMode ? "text-gray-300" : "text-gray-500"}`}>
                   {project.description}
                 </p>
 
-                {/* Tech Stack */}
+            
 
                 <div className="flex flex-wrap gap-2 mt-5">
 
@@ -318,7 +317,7 @@ leading-6 sm:leading-7 transition-colors duration-500 ${darkMode ? "text-gray-30
                     <span
                       key={tech}
                       className={`px-2.5 sm:px-3
-py-1 rounded-full text-xs sm:text-sm font-medium transition-all duration-500 ${darkMode
+                              py-1 rounded-full text-xs sm:text-sm font-medium transition-all duration-500 ${darkMode
                           ? "bg-blue-900 text-blue-200 hover:bg-blue-500 hover:text-white"
                           : "bg-blue-100 text-blue-700 hover:bg-blue-600 hover:text-white"
                         }`}

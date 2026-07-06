@@ -45,7 +45,7 @@ function Navbar({ darkMode, setDarkMode }) {
 
     return (
   <>
-    {/* ===================== TOP NAVBAR ===================== */}
+    
 
     <nav className="fixed top-0 left-0 w-full z-50">
 
@@ -59,11 +59,10 @@ function Navbar({ darkMode, setDarkMode }) {
 
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
-          {/* Desktop Navbar */}
+          
 
           <div className="hidden lg:flex items-center justify-between h-20">
 
-            {/* Logo */}
 
             <Link
               to="/"
@@ -79,8 +78,7 @@ function Navbar({ darkMode, setDarkMode }) {
               Riya<span className="text-blue-500">.</span>
             </Link>
 
-            {/* Desktop Navigation */}
-
+            
             <ul className="flex items-center gap-3 font-medium">
 
               {navItems.map((item) => (
@@ -112,7 +110,6 @@ function Navbar({ darkMode, setDarkMode }) {
 
             </ul>
 
-            {/* Theme Toggle */}
 
             <button
               onClick={() => setDarkMode(!darkMode)}
@@ -127,7 +124,7 @@ function Navbar({ darkMode, setDarkMode }) {
 
           </div>
 
-          {/* Mobile Top Navbar */}
+         
 
           <div className="flex lg:hidden items-center justify-between h-20 px-2">
 
@@ -164,7 +161,7 @@ function Navbar({ darkMode, setDarkMode }) {
 
     </nav>
 
-    {/* ===================== MOBILE BOTTOM NAVBAR ===================== */}
+    
 
     <nav
       className={`fixed bottom-4 left-1/2 -translate-x-1/2 w-[95%] lg:hidden z-50 rounded-3xl backdrop-blur-2xl shadow-2xl border transition-all duration-500 ${
