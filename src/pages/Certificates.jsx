@@ -3,6 +3,7 @@ import graphic1 from "../assets/images/graphic1.png";
 import cpp from "../assets/images/cpp.png";
 import python from "../assets/images/python.png";
 import c from "../assets/images/c.png";
+import genai from "../assets/images/genai.png";
 import { FaEye } from "react-icons/fa";
 
 function Certificates({ darkMode }) {
@@ -14,6 +15,12 @@ function Certificates({ darkMode }) {
       company: "Codemithra Ethnus",
       image: graphic,
       live: "/certificates/Ethnus.pdf",
+    },
+    {
+      title: "GEN AI: From Basics to Advanced Level",
+      company: "Udemy",
+      image: genai,
+      live: "/certificates/genai.pdf",
     },
 
     {
@@ -36,6 +43,7 @@ function Certificates({ darkMode }) {
       image:  c,
       live: "/certificates/C.pdf",
     },
+     
     {
       title: "Certificate for the Completion of Python Training",
       company: "Spoken Tutorial Project at IIT Bombay",

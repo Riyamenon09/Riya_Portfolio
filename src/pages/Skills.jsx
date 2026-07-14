@@ -1,9 +1,12 @@
-import { FaReact, FaNodeJs, FaDatabase, FaTools,FaChartLine, FaBrain, FaChartBar, FaPalette, FaRegFileExcel, FaPython, FaJava, FaCode } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaDatabase, FaTools, FaChartLine, FaBrain, FaChartBar, FaPalette, FaRegFileExcel, FaPython, FaJava, FaCode } from "react-icons/fa";
 import { TbBrandAdobePhotoshop, TbBrandCpp } from "react-icons/tb";
 import {
   SiHtml5, SiCss, SiJavascript, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiExpress, SiFlask, SiDjango, SiMongodb,
-  SiMysql, SiGit, SiPostman, SiFigma, SiDocker, SiC, SiNumpy,SiPandas,SiPlotly,SiScikitlearn,SiTensorflow,SiKeras,SiOpencv
+  SiMysql, SiGit, SiPostman, SiFigma, SiDocker, SiC, SiNumpy, SiPandas, SiPlotly, SiScikitlearn, SiTensorflow, SiKeras, SiOpencv
 } from "react-icons/si";
+import { FaRobot, FaProjectDiagram } from "react-icons/fa";
+import { RiRobot2Fill } from "react-icons/ri";
+import { SiLangchain } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
 
 function Skills({ darkMode }) {
@@ -63,9 +66,21 @@ function Skills({ darkMode }) {
         { name: "ML", icon: <FaBrain className="text-black" /> },
         { name: "Matplotlib", icon: <SiPlotly className="text-orange-500" /> },
         { name: "Seaborn", icon: <FaChartLine className="text-cyan-500" /> },
-        { name: "DL", icon: <FaBrain className="text-black" /> },
+        { name: "DL", icon: <FaBrain className="text-pink-700" /> },
         { name: "TensorFlow", icon: <SiTensorflow className="text-orange-500" /> },
-        { name: "XAI", icon: <FaBrain className="text-black" /> },
+        { name: "XAI", icon: <FaBrain className="text-yellow-400" /> },
+      ],
+    },
+    {
+      title: "Generative AI",
+      icon: <FaRobot className="text-3xl text-yellow-500" />,
+      items: [
+        { name: "Generative AI", icon: <RiRobot2Fill className="text-blue-500" /> },
+        { name: "LLMs", icon: <FaBrain className="text-purple-500" /> },
+        { name: "LangChain", icon: <SiLangchain className="text-green-600" /> },
+        { name: "LangGraph", icon: <FaProjectDiagram className="text-blue-600" /> },
+        { name: "AI Agents", icon: <RiRobot2Fill className="text-cyan-500" /> },
+        { name: "RAG", icon: <FaDatabase className="text-orange-500" /> },
       ],
     },
     {
@@ -96,7 +111,7 @@ function Skills({ darkMode }) {
           icon: <TbBrandAdobePhotoshop className="text-blue-600" />,
         },
         {
-          name: "UI / UX Design",
+          name: "UI/UX",
           icon: <FaPalette className="text-purple-500" />,
         },
       ],
