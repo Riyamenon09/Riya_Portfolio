@@ -10,6 +10,7 @@ import pizza from "../assets/images/pizza.png"
 import customerreport from "../assets/images/customerreport.png"
 import sales from "../assets/images/sales.png"
 import airbnb from "../assets/images/airbnb.png"
+import home from "../assets/images/home.png"
 import portfolio from "../assets/images/portfolio.png"
 
 import { FaGithub } from "react-icons/fa";
@@ -35,10 +36,23 @@ function Projects({ darkMode }) {
       description:
         "A responsive portfolio website built using React and Tailwind CSS.",
 
-      tech: ["React", "Tailwind CSS","JS","Vite","Git"],
+      tech: ["React", "Tailwind CSS", "JS", "Vite", "Git"],
 
       github: "https://github.com/Riyamenon09/Riya_Portfolio",
       live: "https://riyamenon-portfolio.vercel.app/",
+    },
+    {
+      title: "StudyMate-AI",
+      image: home,
+      description:
+        "A Conversational RAG AI study assistant that enables users to upload documents and ask context-aware questions using LangChain, ChromaDB, Cohere LLM, and FastAPI.",
+
+      tech: [
+        "Python","FastAPI","Streamlit","LangChain","ChromaDB","Cohere",
+        "RAG","MultiQuery Retriever","Contextual Compression","LLM"],
+
+      github: "https://github.com/Riyamenon09/StudyMate-AI",
+      live: "#",
     },
     {
       title: "Andaman Rideshare",
@@ -155,7 +169,7 @@ function Projects({ darkMode }) {
         "UI Design",
         "UX Design",
         "Prototyping",
-        "Wireframing","Auto Layout"
+        "Wireframing", "Auto Layout"
       ],
 
       github: "#",
@@ -172,7 +186,7 @@ function Projects({ darkMode }) {
         "UI Design",
         "UX Design",
         "Prototyping",
-        "Wireframing","Rulers","Auto Layout"
+        "Wireframing", "Rulers", "Auto Layout"
       ],
 
       github: "#",
@@ -189,7 +203,7 @@ function Projects({ darkMode }) {
         "UI Design",
         "UX Design",
         "Prototyping",
-        "Wireframing","Auto Layout"
+        "Wireframing", "Auto Layout"
       ],
 
       github: "#",
@@ -236,7 +250,7 @@ function Projects({ darkMode }) {
                 }`}
             >
 
-           
+
 
               <div className="overflow-hidden">
 
@@ -249,11 +263,11 @@ function Projects({ darkMode }) {
 
               </div>
 
-           
+
 
               <div className="p-5 sm:p-6">
 
-             
+
 
                 <div className="flex justify-between items-start gap-3">
 
@@ -264,7 +278,7 @@ function Projects({ darkMode }) {
 
                   <div className="flex gap-3">
 
-                 
+
 
                     {project.github !== "#" && (
                       <a
@@ -272,15 +286,15 @@ function Projects({ darkMode }) {
                         target="_blank"
                         rel="noreferrer"
                         className={`w-9 h-9 sm:w-10 sm:h-10 rounded-full flex justify-center items-center transition-all duration-500 ${darkMode
-                            ? "bg-[#1B365D] text-white hover:bg-gray-700"
-                            : "bg-gray-100 text-black hover:bg-black hover:text-white"
+                          ? "bg-[#1B365D] text-white hover:bg-gray-700"
+                          : "bg-gray-100 text-black hover:bg-black hover:text-white"
                           }`}
                       >
                         <FaGithub className="text-lg" />
                       </a>
                     )}
 
-                   
+
 
                     {project.live !== "#" && (
                       <a
@@ -288,8 +302,8 @@ function Projects({ darkMode }) {
                         target="_blank"
                         rel="noreferrer"
                         className={`w-9 h-9 sm:w-10 sm:h-10 rounded-full flex justify-center items-center transition-all duration-500 ${darkMode
-                            ? "bg-blue-900 text-blue-300 hover:bg-blue-500 hover:text-white"
-                            : "bg-blue-100 text-blue-600 hover:bg-blue-600 hover:text-white"
+                          ? "bg-blue-900 text-blue-300 hover:bg-blue-500 hover:text-white"
+                          : "bg-blue-100 text-blue-600 hover:bg-blue-600 hover:text-white"
                           }`}
                       >
                         <FaGlobe className="text-xl" />
@@ -300,7 +314,7 @@ function Projects({ darkMode }) {
 
                 </div>
 
-               
+
 
                 <p className={`mt-3
                 text-sm sm:text-base
@@ -308,7 +322,7 @@ function Projects({ darkMode }) {
                   {project.description}
                 </p>
 
-            
+
 
                 <div className="flex flex-wrap gap-2 mt-5">
 
