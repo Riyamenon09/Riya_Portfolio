@@ -49,7 +49,7 @@ function Projects({ darkMode }) {
 
       tech: [
         "Python","FastAPI","Streamlit","LangChain","ChromaDB","Cohere",
-        "RAG","MultiQuery Retriever","Contextual Compression","LLM"],
+        "RAG","LLM","MultiQuery Retriever"],
 
       github: "https://github.com/Riyamenon09/StudyMate-AI",
       live: "#",
